@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f5f0e14-dcba-4b2f-bc1b-03867b74f70c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/constructorChaining/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constructorChaining/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constructorChaining/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constructorChaining/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constructorChaining/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/overloading/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/overriding/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/overriding/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/overriding/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/EagerLoading/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/doubleCheckLocking/DataBaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/singleThreaded/DatabaseConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,6 +140,7 @@
       <workItem from="1676927983550" duration="174000" />
       <workItem from="1676928167206" duration="934000" />
       <workItem from="1677063913606" duration="7452000" />
+      <workItem from="1677931304457" duration="2569000" />
     </task>
     <servers />
   </component>
