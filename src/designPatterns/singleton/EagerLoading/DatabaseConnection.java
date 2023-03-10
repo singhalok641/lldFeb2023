@@ -1,4 +1,4 @@
-package singleton.EagerLoading;
+package designPatterns.singleton.EagerLoading;
 
 
 public class DatabaseConnection {

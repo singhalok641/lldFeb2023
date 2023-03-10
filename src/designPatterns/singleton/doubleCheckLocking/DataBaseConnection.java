@@ -1,6 +1,4 @@
-package singleton.doubleCheckLocking;
-
-import singleton.singleThreaded.DatabaseConnection;
+package designPatterns.singleton.doubleCheckLocking;
 
 public class DataBaseConnection {
 

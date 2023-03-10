@@ -1,4 +1,4 @@
-package singleton.singleThreaded;
+package designPatterns.singleton.singleThreaded;
 
 public class DatabaseConnection {
 
