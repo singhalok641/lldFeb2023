@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f5f0e14-dcba-4b2f-bc1b-03867b74f70c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/builder/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/builder/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/prototype/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/prototype/IntelligentStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/prototype/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/prototype/StudentRegistry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/singleton/EagerLoading/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designPatterns/singleton/EagerLoading/DatabaseConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/singleton/doubleCheckLocking/DataBaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designPatterns/singleton/doubleCheckLocking/DataBaseConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/singleton/singleThreaded/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designPatterns/singleton/singleThreaded/DatabaseConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +141,7 @@
       <workItem from="1676927983550" duration="174000" />
       <workItem from="1676928167206" duration="934000" />
       <workItem from="1677063913606" duration="7452000" />
-      <workItem from="1677931304457" duration="6188000" />
+      <workItem from="1677931304457" duration="9217000" />
     </task>
     <servers />
   </component>
