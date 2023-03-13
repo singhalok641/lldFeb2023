@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f5f0e14-dcba-4b2f-bc1b-03867b74f70c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/prototype/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/prototype/IntelligentStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/prototype/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/prototype/StudentRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/abstractFactory/AndroidUIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/abstractFactory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/abstractFactory/Flutter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/abstractFactory/IosUIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/abstractFactory/SupportedPlatforms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/abstractFactory/UIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/abstractFactory/components/Buttons/AndroidButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/abstractFactory/components/Buttons/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/abstractFactory/components/Buttons/IosButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/abstractFactory/components/Dropdown/AndroidDropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/abstractFactory/components/Dropdown/Dropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/abstractFactory/components/Dropdown/IosDropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/abstractFactory/components/Menu/AndroidMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/abstractFactory/components/Menu/IosMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/abstractFactory/components/Menu/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +30,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -53,13 +66,13 @@
       <recent name="accessModifiers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.designPatterns.builder.Client">
-    <configuration name="constructorChaining.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="constructorChaining.Client" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designPatterns.abstractFactory.Client" />
       <module name="lldFeb2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="constructorChaining.*" />
+          <option name="PATTERN" value="designPatterns.abstractFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="constructors.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="constructors.Client" />
+    <configuration name="constructorChaining.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="constructorChaining.Client" />
       <module name="lldFeb2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="constructors.*" />
+          <option name="PATTERN" value="constructorChaining.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.designPatterns.builder.Client" />
         <item itemvalue="Application.overriding.Client" />
         <item itemvalue="Application.constructorChaining.Client" />
         <item itemvalue="Application.inheritance.Client" />
-        <item itemvalue="Application.constructors.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +154,7 @@
       <workItem from="1676927983550" duration="174000" />
       <workItem from="1676928167206" duration="934000" />
       <workItem from="1677063913606" duration="7452000" />
-      <workItem from="1677931304457" duration="9217000" />
+      <workItem from="1677931304457" duration="12112000" />
     </task>
     <servers />
   </component>
@@ -206,6 +219,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/designPatterns/abstractFactory/Flutter.java</url>
+          <line>7</line>
+          <properties class="designPatterns.abstractFactory.Flutter" method="setRefreshRate">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
