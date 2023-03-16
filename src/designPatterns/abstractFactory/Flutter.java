@@ -1,6 +1,12 @@
 package designPatterns.abstractFactory;
 
 public class Flutter {
+    private SupportedPlatforms platform;
+
+    public Flutter(SupportedPlatforms platform){
+        this.platform = platform;
+    }
+
     public void setTheme(){
 
     }
@@ -9,14 +15,8 @@ public class Flutter {
 
     }
 
-    public UIFactory createUIFactory(SupportedPlatforms platform){
-        if(platform.equals(SupportedPlatforms.ANDROID)){
-            return new AndroidUIFactory();
-        }
-        else if(platform.equals(SupportedPlatforms.IOS)){
-            return new IosUIFactory();
-        }
-
+    public UIFactory createUIFactory(){
+        UiFactoryFactory.getUiFactoryForPlatform(platform);
         return null;
     }
 }
