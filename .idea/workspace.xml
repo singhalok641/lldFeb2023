@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f5f0e14-dcba-4b2f-bc1b-03867b74f70c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/abstractFactory/UiFactoryFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/adapter/BankAPIAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/adapter/ICICIBankAPIAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/adapter/PhonePe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/adapter/YesBankAPIAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/adapter/thirdparty/icicibank/IciciBankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/adapter/thirdparty/yesbank/YesBankAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/decorator/ChocoChips.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/decorator/ChocolateCone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/decorator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/decorator/IceCreamConeConstituents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/decorator/OrangeCone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/decorator/StrawberryScoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/decorator/VanillaScoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designPatterns/abstractFactory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designPatterns/abstractFactory/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designPatterns/abstractFactory/Flutter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designPatterns/abstractFactory/Flutter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +62,7 @@
       <recent name="accessModifiers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.designPatterns.decorator.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="designPatterns.abstractFactory.Client" />
       <module name="lldFeb2023" />
@@ -104,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="inheritance.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.Client" />
+    <configuration name="designPatterns.decorator.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designPatterns.decorator.Client" />
       <module name="lldFeb2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inheritance.*" />
+          <option name="PATTERN" value="designPatterns.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.designPatterns.decorator.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.designPatterns.builder.Client" />
         <item itemvalue="Application.overriding.Client" />
         <item itemvalue="Application.constructorChaining.Client" />
-        <item itemvalue="Application.inheritance.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +150,7 @@
       <workItem from="1676927983550" duration="174000" />
       <workItem from="1676928167206" duration="934000" />
       <workItem from="1677063913606" duration="7452000" />
-      <workItem from="1677931304457" duration="16152000" />
+      <workItem from="1677931304457" duration="17209000" />
     </task>
     <servers />
   </component>
