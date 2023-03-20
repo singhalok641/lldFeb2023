@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f5f0e14-dcba-4b2f-bc1b-03867b74f70c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/decorator/ChocoChips.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/decorator/ChocolateCone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/decorator/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/decorator/IceCreamConeConstituents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/decorator/OrangeCone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/decorator/StrawberryScoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPatterns/decorator/VanillaScoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/observer/AnalyticsSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/observer/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/observer/EmailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/observer/Flipkart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/observer/InvoiceGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/observer/OrderCancelledSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/observer/OrderPlacedSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/observer/ReturnData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/strategy/BikePathCalculatorStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/strategy/CarPathCalculatorStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/strategy/GoogleMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/strategy/PathCalculatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/strategy/PathCalculatorStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPatterns/strategy/WalkPathCalculatorStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -150,12 +157,23 @@
       <workItem from="1676927983550" duration="174000" />
       <workItem from="1676928167206" duration="934000" />
       <workItem from="1677063913606" duration="7452000" />
-      <workItem from="1677931304457" duration="17209000" />
+      <workItem from="1677931304457" duration="19159000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
